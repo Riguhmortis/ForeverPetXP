@@ -10,7 +10,7 @@
 - Extend `/petxp test` with sample happiness and a clearly labeled +59 popup.
 - Preserve existing saved settings and migrate missing/invalid color settings safely.
 
-All 47 automated Lua 5.1 behavior checks pass. The new UI, sound playback, and beta API integration have not yet been tested in-game. Numeric feeding gains depend on the client exposing readable data; no estimated amounts are shown.
+All 47 automated Lua 5.1 behavior checks pass. The user confirmed version 0.2.0 works in-game on October 19, 2026. Numeric feeding gains depend on the client exposing readable data; no estimated amounts are shown.
 
 ## 0.1.0 — 2026-09-28
 

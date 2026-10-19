@@ -2,7 +2,7 @@
 
 A small, movable experience and happiness display for Hunter pets in **World of Warcraft: Forever**.
 
-Targets the **1.60.1** Forever client, interface **16001**. Version **0.2.0** passes 47 automated Lua 5.1 behavior checks; its new happiness display, audio, and controls still need an in-game check. Version **0.1.0** was confirmed working in-game on build **1.60.1.70009**.
+Targets the **1.60.1** Forever client, interface **16001**. Version **0.2.0** passes 47 automated Lua 5.1 behavior checks and was confirmed working in-game by the user on October 19, 2026. Version **0.1.0** was confirmed working in-game on build **1.60.1.70009**.
 
 ## Features
 
@@ -22,7 +22,7 @@ Targets the **1.60.1** Forever client, interface **16001**. Version **0.2.0** pa
 
 ## Install
 
-Stable packages are available from the [latest release](https://github.com/Riguhmortis/ForeverPetXP/releases/latest). Check the version shown there: a source update does not automatically publish a new release ZIP. To try 0.2.0 before a release is published, download the source ZIP from the branch containing this update and follow the source ZIP instructions below.
+Stable packages are available from the [latest release](https://github.com/Riguhmortis/ForeverPetXP/releases/latest). Check the version shown there: a source update does not automatically publish a new release ZIP. For the current source, including 0.2.0, download the [main branch source ZIP](https://github.com/Riguhmortis/ForeverPetXP/archive/refs/heads/main.zip) and follow the source ZIP instructions below.
 
 1. Exit WoW completely before installing a new addon.
 2. Extract the release ZIP.
@@ -102,7 +102,7 @@ Happiness integration references inspected at UI-source commit `172a387e3ab85b26
 - [Public aura lookup documentation](https://github.com/Gethe/wow-ui-source/blob/172a387e3ab85b26e6640d3058d5ec1e6ccd4c63/Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua)
 - [Combat log energize payload](https://github.com/Gethe/wow-ui-source/blob/172a387e3ab85b26e6640d3058d5ec1e6ccd4c63/Interface/AddOns/Blizzard_CombatLogProcessor/Blizzard_CombatLogProcessor.lua)
 
-The initial version was confirmed working in-game on September 28, 2026. For future changes and beta patches, use this regression checklist:
+The initial version was confirmed working in-game on September 28, 2026. The user also confirmed version 0.2.0 works in-game on October 19, 2026. For future changes and beta patches, use this regression checklist:
 
 1. Compare exact XP values with Character > Pet, then close the sheet and earn pet XP.
 2. Move and lock the bar; `/reload` and confirm its position and lock state persist.
