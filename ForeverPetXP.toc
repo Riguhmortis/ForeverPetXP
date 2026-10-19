@@ -1,8 +1,8 @@
 ## Interface: 16001
 ## Title: Forever Pet XP
-## Notes: A movable Hunter pet experience bar using the same XP data as the character sheet.
+## Notes: Hunter pet XP and happiness meters, feeding popups, mood sounds, and customizable outline color.
 ## Author: Forever Pet XP contributors
-## Version: 0.1.0
+## Version: 0.2.0
 ## X-Website: https://github.com/Riguhmortis/ForeverPetXP
 ## SavedVariablesPerCharacter: ForeverPetXPDB
 ## IconTexture: Interface\Icons\Ability_Hunter_BeastTaming
